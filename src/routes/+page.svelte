@@ -1,4 +1,5 @@
-<h1 class="text-sm">Welcome to SvelteKit</h1>
-<p>
-	Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation
-</p>
+<div class="flex items-center justify-center min-h-screen bg-gray-100">
+	<h1 class="text-7xl font-bold text-center">
+	  Verif.ai
+	</h1>
+</div>
