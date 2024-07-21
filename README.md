@@ -17,3 +17,4 @@ The general shape of the solution allows users to feed us a video which we trans
 - GPT 3.5 determines what statements are claims or just opinions / yapping.
 
 ![Transcription Image](https://github.com/matthewdeguzman/verif-ai-frontend/blob/main/assets/transcript1.jpeg)
+![Transcription Image](https://github.com/matthewdeguzman/verif-ai-frontend/blob/main/assets/transcript2.jpeg)
