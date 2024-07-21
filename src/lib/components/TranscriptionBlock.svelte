@@ -12,7 +12,7 @@ export let transcript = "Transcript not loaded";
 </script>
 
 <div class="card bg-base-100 w-[584px] shadow-md border-2 border-[#D9D9D9]">
-    <div class="card-body">
+    <div class="card-body max-h-[610px] overflow-y-auto">
       <div class="top-0 right-0 absolute pt-[15px] pr-[30px]"><DownButton/>{" "}<UpButton/></div>
 
         <span class="card-title pt-[15px]">
