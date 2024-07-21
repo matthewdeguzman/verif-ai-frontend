@@ -11,7 +11,7 @@ export let uncertainCount = 0;
 export let transcript = "Transcript not loaded";
 </script>
 
-<div class="card bg-base-100 w-[584px] shadow-xl min-h-[500px]">
+<div class="card bg-base-100 w-[584px] shadow-xl">
     <div class="card-body">
       <div class="top-0 right-0 absolute pt-[15px] pr-[30px]"><DownButton/>{" "}<UpButton/></div>
 
