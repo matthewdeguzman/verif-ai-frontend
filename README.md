@@ -1,38 +1,19 @@
-# create-svelte
+# Verif.ai
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+## Problem
 
-## Creating a project
+Misinformation is widespread nowadays and it can be hard to distinguish fact from fiction, especially in important moments such as presidential debates or speeches where the fate of a country may lie in the hands of the people who are watching.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Solution
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+We created a web application that transcribes text from videos and scrapes the internet for data about what is said in a video. A decision is made by an LLM about what is said based on the evidence that is gathered.
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+The general shape of the solution allows users to feed us a video which we transcribe using OpenAI's Whisper, an automatic speech recognition (ARS) system, and check for facts or misinformation. The end result displays a list of facts and misinformation gathered from the video.
 
-## Developing
+## Features
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+- Users can paste a YouTube video link into the page to analyze the facts and false claims said in the video.
+- OpenAI's Whisper transcibes the video
+- GPT 3.5 determines what statements are claims or just opinions / yapping.
 
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+![Transcription Image](https://github.com/matthewdeguzman/verif-ai-frontend/blob/main/transcription1.jpg?raw=true)
