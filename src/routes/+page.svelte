@@ -1,4 +1,4 @@
-<script>
+<script lang='ts'>
 	import { videoLink } from '../stores.js';
 	import { goto } from '$app/navigation';
 
@@ -9,7 +9,7 @@
 	goto('/transcription');
 	};
 
-	const handleKeydown = (event) => {
+	const handleKeydown = (event: KeyboardEvent) => {
 		if (event.key === 'Enter') {
 		handleSubmit();
 		}
