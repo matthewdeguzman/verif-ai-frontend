@@ -8,7 +8,11 @@ import UpButton from "./UpButton.svelte";
 export let falseCount = 0;
 export let verifiedCount = 0;
 export let uncertainCount = 0;
-export let transcript = "Transcript not loaded";
+export let sentences = [];
+export let obj;
+
+let transcript= sentences.join(" ")
+
 </script>
 
 <div class="card bg-base-100 w-[584px] shadow-md border-2 border-[#D9D9D9]">
