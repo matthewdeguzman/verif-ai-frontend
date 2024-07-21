@@ -20,9 +20,9 @@
 	<p class="text-4xl text-center mt-2 font-light text-gray-500">
 		Fact check videos using AI
 	</p>
-	<h1 class="text-7xl mt-4 mb-4 font-bold text-center">
-	  Verif.ai
-	</h1>
+	<div class="display: flex; justify-content: center; align-items: center; height: 100vh;">
+		<img src='/Verif.ai.svg' alt="Verif.ai Logo" class="logo w-68 h-68"/>
+	</div>
 	<div class="mt-4 w-full max-w-md flex justify-center">
 		<label class="input input-bordered flex items-center gap-2">
 		  <input 
