@@ -7,7 +7,8 @@
 		<div class="flex items-center">
 		  <!-- Logo -->
 		  <a href="/" class="text-xl font-bold text-gray-800">
-			Verif.ai
+			<img src='/Verif.ai.svg' alt="Verif.ai Logo" class="logo h-8" />
+			<!-- Verif.ai -->
 		  </a>
 		</div>
 		<div class="hidden md:flex space-x-4">
