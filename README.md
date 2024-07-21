@@ -16,4 +16,4 @@ The general shape of the solution allows users to feed us a video which we trans
 - OpenAI's Whisper transcibes the video
 - GPT 3.5 determines what statements are claims or just opinions / yapping.
 
-![Transcription Image](https://github.com/matthewdeguzman/verif-ai-frontend/assets/transcription1.png)
+![Transcription Image](https://github.com/matthewdeguzman/verif-ai-frontend/blob/main/assets/transcript1.jpeg)
